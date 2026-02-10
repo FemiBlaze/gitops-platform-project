@@ -1,0 +1,18 @@
+name: Terraform Infrastructure
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "infra/**"
+  workflow_dispatch:
+
+jobs:
+  terraform:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Terraform placeholder
+        run: |
+          echo "Terraform workflow is intentionally disabled until infra is ready."
+
