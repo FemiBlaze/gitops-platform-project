@@ -1,0 +1,64 @@
+#######################################
+# OS / Editor files
+#######################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+.vscode/
+.idea/
+
+#######################################
+# Node.js Application
+#######################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.env
+.env.*
+
+#######################################
+# Terraform
+#######################################
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+crash.log
+*.backup
+
+#######################################
+# AWS / Cloud credentials
+#######################################
+.aws/
+.aws/credentials
+.aws/config
+*.pem
+*.key
+
+#######################################
+# Docker
+#######################################
+*.log
+docker-compose.override.yml
+
+#######################################
+# Kubernetes / EKS
+#######################################
+kubeconfig
+kubeconfig*
+*.kubeconfig
+*.yaml.bak
+
+#######################################
+# Logs & temporary files
+#######################################
+logs/
+tmp/
+*.tmp
+
