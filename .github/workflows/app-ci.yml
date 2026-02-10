@@ -2,10 +2,11 @@ name: App CI - Build Docker Image
 
 on:
   push:
-    paths:
-      - "app/**"
     branches:
       - main
+    paths:
+      - "app/**"
+  workflow_dispatch:
 
 jobs:
   build:
