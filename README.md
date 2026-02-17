@@ -206,13 +206,15 @@ https://localhost:8080
 
 ## Screenshots
 
-Add the following screenshots:
+The following screenshots are included:
 
-* Terraform apply success output
-* GitHub Actions successful pipeline runs
-* Argo CD “Synced” and “Healthy” status
-* Application topology view
-* AWS Budget dashboard
+* app-ci-logs.png
+* terraform-ci-success.png 
+* terraform-ci-logs.png 
+* argocd-overview.png 
+* argocd-app-tree.png 
+* aws-budget.png 
+* terraform-apply-success.png
 
 These visually validate the platform.
 
@@ -247,6 +249,5 @@ This project demonstrates how to:
 * Enforce infrastructure safety through remote state locking
 * Apply cost governance in cloud engineering
 
-It bridges foundational DevOps knowledge with platform-level engineering practices.
 
 The entire system can be destroyed and restored from source code — validating true infrastructure reproducibility.
